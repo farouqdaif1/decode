@@ -46,3 +46,9 @@ def decode_word(str)
   chars.map { |n| decode_char(n) }.join
 end
 puts(decode_word('-- -.--'))
+
+def decode(str)
+  words = str.split('   ')
+  words.map { |n| decode_word(n) }.join(' ')
+end
+puts(decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'))
