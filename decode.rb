@@ -40,3 +40,9 @@ def decode_char(str)
   @morse_decoder[str]
 end
 puts(decode_char('.-'))
+
+def decode_word(str)
+  chars = str.split
+  chars.map { |n| decode_char(n) }.join
+end
+puts(decode_word('-- -.--'))
