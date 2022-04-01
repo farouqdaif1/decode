@@ -1,4 +1,4 @@
-# decode-morse-code
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Decode Morse
 > This project uses Ruby to decode morse code.
